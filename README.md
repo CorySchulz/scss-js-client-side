@@ -39,7 +39,7 @@ This is a tool that might be useful for a few very specific development situatio
 
 It's also worth mentioning that this won't work in Chrome or Safari for local files because of CORS.
 
-Also it's only test in Chrome and Safari because IE and FF are dead to me.
+Only tested in Chrome and Safari because IE and FF are dead to me.
 
 
 
