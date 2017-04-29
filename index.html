@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Scss js compiler</title>
+</head>
+<body>
+
+<header>
+	<h1>Hello World</h1>
+</header>
+
+<scss style="display: none;" id="first">
+  $blue: #004DF3; body{header{background: $blue; width: 100%;}}
+</scss>
+
+<scss src="scss/styles.scss" id="second" ></scss>
+
+<scss style="display: none;" id="third">
+	$gold: #FFCC00;
+	body{
+		background: $gold;
+		header{
+			padding: 20px;
+			h1{
+				color: #fff;
+				text-align: center;
+				padding: 20px;
+			}
+		}
+	}
+</scss>
+
+<script src="js/sass.sync.js"></script>
+<script src="js/scss-js.js"></script>
+
+</body>
+</html>
